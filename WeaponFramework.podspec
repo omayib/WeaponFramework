@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
 	s.name         = "WeaponFramework"
-	s.version      = "0.0.2"
+	s.version      = "0.0.3"
 	s.summary      = "make it simple dev call enggine."
 
 	s.homepage     = "http://qiscus.com"
 	# s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
-	s.license      = "MIT"
+	s.license      = 'Code is MIT, then custom font licenses.'
 
 	s.author       = { "akbarul@qiscus.co" => "akbarul@qiscus.co" }
 
@@ -16,9 +16,4 @@ Pod::Spec.new do |s|
 	s.source       = { :git => 'https://github.com/omayib/WeaponFramework.git',:tag => s.version}
 
 	s.source_files  = "WeaponFramework/*.{h,m,swift,xib}"
-
-	s.resources = "WeaponFramework/*.xcassets"
-	s.resource_bundles = {
-	    'WeaponFramework' => ['WeaponFramework/*.{xib,xcassets,imageset,png}']
-	}
 end
