@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 	s.platform     = :ios, "9.0"
 
 	#s.source       = { :path => "." }
-	s.source       = { :git => 'https://github.com/omayib/WeaponFramework.gitt'}
+	s.source       = { :git => 'https://github.com/omayib/WeaponFramework.git'}
 
 	s.source_files  = "WeaponFramework/WeaponFramework/*.{h,m,swift,xib}"
 
