@@ -13,11 +13,11 @@ Pod::Spec.new do |s|
 	s.platform     = :ios, "9.0"
 
 	#s.source       = { :path => "." }
-	s.source       = { :git => 'https://github.com/omayib/WeaponFramework.git'}
+	s.source       = { :git => 'https://github.com/omayib/WeaponFramework.git',:tag => 'v0.0.1'}
 
-	s.source_files  = "WeaponFramework/WeaponFramework/*.{h,m,swift,xib}"
+	s.source_files  = "WeaponFramework/*.{h,m,swift,xib}"
 
-	s.resources = "WeaponFramework/WeaponFramework/*.xcassets"
+	s.resources = "WeaponFramework/*.xcassets"
 	s.resource_bundles = {
 	    'WeaponFramework' => ['WeaponFramework/*.{xib,xcassets,imageset,png}']
 	}
