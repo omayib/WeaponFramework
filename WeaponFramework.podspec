@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name         = "WeaponFramework"
-	s.version      = "0.0.1"
+	s.version      = "0.0.2"
 	s.summary      = "make it simple dev call enggine."
 
 	s.homepage     = "http://qiscus.com"
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 	s.platform     = :ios, "9.0"
 
 	#s.source       = { :path => "." }
-	s.source       = { :git => 'https://github.com/omayib/WeaponFramework.git',:tag => 'v0.0.1'}
+	s.source       = { :git => 'https://github.com/omayib/WeaponFramework.git',:tag => s.version}
 
 	s.source_files  = "WeaponFramework/*.{h,m,swift,xib}"
 
